@@ -6,8 +6,7 @@ html {
 
 :root{
   --white-color: white;
-  --navbar-bg: ;
-  --logo: white;
+  --logo: #EDC126;
 }
 
 a{
@@ -77,12 +76,12 @@ a{
 
 .home
 {
-  color:var(--logo) !important;
+  color:var(--white-color) !important;
 }
 
 .nav-link:hover
 {
-  color: var(--logo) !important;
+  color: var(--white-color) !important;
 }
 
 
@@ -125,7 +124,7 @@ a{
 {
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: var(--logo);
+  color: var(--white-color);
 }
 
 .mid-title
@@ -136,14 +135,14 @@ a{
   border-radius: 10px;
   display: inline;
   padding: 0.8rem 1.5rem;
-  color: var(--logo);
+  color: var(--white-color);
 }
 
 .end-title
 {
   font-size: 1.5rem;
   margin-top: 3.5rem;
-  color: var(--logo);
+  color: var(--white-color);
   
 }
 
@@ -170,7 +169,7 @@ a{
 
 .nav-icons
 {
-  color: white;
+  color: var(--white-color);
   padding: 0 .5rem;
 }
 
@@ -180,7 +179,7 @@ a{
 
 .menu-title
 {
-  margin-top: 5rem !important;
+  margin-top: 3rem !important;
 }
 
 .img-food
@@ -227,4 +226,159 @@ a{
   font-size: 1.5rem;
   border-radius: 10px;
   padding: .5rem 2rem;
+}
+
+/* our services */
+
+.ourService
+{
+  background-color: #f7f1e3;
+}
+
+.service-title
+{
+  font-size: 2.3rem;
+}
+
+.colorChange
+{
+  color: #EDC126;
+}
+
+.service-para
+{
+  text-align: center;
+  margin-top: 1.7rem;
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+}
+
+.servicePart
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.service
+{
+  display:flex;
+  align-items: center;
+}
+
+.number
+{
+  margin-right: 1.5rem;
+  padding: 1rem 1.3rem;
+  border-radius: 50%;
+  border:7px solid white;
+  background: #EDC126;
+  color:white;
+  font-size: 1.5rem;
+}
+
+.second
+{
+  margin-left: 2.1rem;
+}
+
+.secondPara
+{
+  margin-left: .3rem;
+}
+
+.Para
+{
+  font-size: 1.2rem;
+}
+
+
+.social-partnars
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.social-icon
+{
+  width:10rem;
+  margin:1.5rem 1rem;
+}
+
+.gpay
+{
+  height: 4rem;
+  width: 11rem;
+}
+
+.apay
+{
+  width:13rem;
+  height: 5.3rem;
+}
+
+.img-mobile
+{
+  width: 20rem;
+  height:25rem;
+  display: block;
+  margin:auto;
+}
+
+/* subscribe section start */
+.subscribe
+{
+  background: var(--logo);
+}
+
+.gmail
+{
+  display: block;
+  margin:auto;
+  font-size: 6rem;
+  text-align: center !important;
+}
+
+.sub-para
+{
+  font-size: 1.7rem;
+  color:var(--white-color);
+  margin-top: 1.5rem;
+}
+
+@media(max-width:600px)
+{
+  .sub-head span
+  {
+    display: block;
+  }
+}
+
+.youremail
+{
+  margin-top: 3rem !important;
+  padding: 1.6rem;
+  display: block !important;
+  width: 30rem;
+  margin: auto;
+  border-radius:40px;
+  border:none;
+  box-shadow: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.subbtn
+{
+  padding: 1.6rem;
+  display: block !important;
+  width: 30rem;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius:40px;
+  font-size: 1.5rem;
 }
